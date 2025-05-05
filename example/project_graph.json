@@ -1,0 +1,3520 @@
+{
+  "nodes": [
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarFullData",
+      "type": "classType",
+      "properties": {
+        "name": "CarFullData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarWithOwnerData",
+      "type": "classType",
+      "properties": {
+        "name": "CarWithOwnerData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarsDao",
+      "type": "classType",
+      "properties": {
+        "name": "CarsDao",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientFullData",
+      "type": "classType",
+      "properties": {
+        "name": "ClientFullData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientsDao",
+      "type": "classType",
+      "properties": {
+        "name": "ClientsDao",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrderHeaderData",
+      "type": "classType",
+      "properties": {
+        "name": "OrderHeaderData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderItemData",
+      "type": "classType",
+      "properties": {
+        "name": "FullOrderItemData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderData",
+      "type": "classType",
+      "properties": {
+        "name": "FullOrderData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrdersDao",
+      "type": "classType",
+      "properties": {
+        "name": "OrdersDao",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;Tuple3",
+      "type": "classType",
+      "properties": {
+        "name": "Tuple3",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/database.dart;package:part_catalog/core/database/database.dart;AppDatabase",
+      "type": "classType",
+      "properties": {
+        "name": "AppDatabase",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database_logger.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database_logger.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/database_logger.dart;package:part_catalog/core/database/database_logger.dart;DatabaseLogger",
+      "type": "classType",
+      "properties": {
+        "name": "DatabaseLogger",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database_logger.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\app_info_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\app_info_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/app_info_items.dart;package:part_catalog/core/database/items/app_info_items.dart;AppInfoItems",
+      "type": "classType",
+      "properties": {
+        "name": "AppInfoItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\app_info_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\cars_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\cars_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/cars_items.dart;package:part_catalog/core/database/items/cars_items.dart;CarsItems",
+      "type": "classType",
+      "properties": {
+        "name": "CarsItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\cars_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\clients_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\clients_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/clients_items.dart;package:part_catalog/core/database/items/clients_items.dart;ClientsItems",
+      "type": "classType",
+      "properties": {
+        "name": "ClientsItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\clients_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\orders_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\orders_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/orders_items.dart;package:part_catalog/core/database/items/orders_items.dart;OrdersItems",
+      "type": "classType",
+      "properties": {
+        "name": "OrdersItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\orders_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_parts_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_parts_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/order_parts_items.dart;package:part_catalog/core/database/items/order_parts_items.dart;OrderPartsItems",
+      "type": "classType",
+      "properties": {
+        "name": "OrderPartsItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_parts_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_services_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_services_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/order_services_items.dart;package:part_catalog/core/database/items/order_services_items.dart;OrderServicesItems",
+      "type": "classType",
+      "properties": {
+        "name": "OrderServicesItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_services_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\reference_closure_items.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\reference_closure_items.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/items/reference_closure_items.dart;package:part_catalog/core/database/items/reference_closure_items.dart;ReferenceClosureItems",
+      "type": "classType",
+      "properties": {
+        "name": "ReferenceClosureItems",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\reference_closure_items.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\schema_synchronizer.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\schema_synchronizer.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/database/schema_synchronizer.dart;package:part_catalog/core/database/schema_synchronizer.dart;SchemaSynchronizer",
+      "type": "classType",
+      "properties": {
+        "name": "SchemaSynchronizer",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\schema_synchronizer.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;CustomAppLocale",
+      "type": "classType",
+      "properties": {
+        "name": "CustomAppLocale",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;_LocalizationsDelegate",
+      "type": "classType",
+      "properties": {
+        "name": "_LocalizationsDelegate",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_router.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_router.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_routes.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_routes.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/navigation/app_routes.dart;package:part_catalog/core/navigation/app_routes.dart;AppRoutes",
+      "type": "classType",
+      "properties": {
+        "name": "AppRoutes",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_routes.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\providers\\core_providers.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\providers\\core_providers.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\service_locator.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\service_locator.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\json_converter.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\json_converter.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/utils/json_converter.dart;package:part_catalog/core/utils/json_converter.dart;JsonConverter",
+      "type": "classType",
+      "properties": {
+        "name": "JsonConverter",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\json_converter.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\logger_config.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\logger_config.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/utils/logger_config.dart;package:part_catalog/core/utils/logger_config.dart;AppLoggers",
+      "type": "classType",
+      "properties": {
+        "name": "AppLoggers",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\logger_config.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\log_messages.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\log_messages.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/utils/log_messages.dart;package:part_catalog/core/utils/log_messages.dart;LogMessages",
+      "type": "classType",
+      "properties": {
+        "name": "LogMessages",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\log_messages.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\core\\widgets\\language_switcher.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\core\\widgets\\language_switcher.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/core/widgets/language_switcher.dart;package:part_catalog/core/widgets/language_switcher.dart;LanguageSwitcher",
+      "type": "classType",
+      "properties": {
+        "name": "LanguageSwitcher",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\core\\widgets\\language_switcher.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\base_item_type.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\base_item_type.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_item_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_item_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/document_item_specific_data.dart;package:part_catalog/features/core/document_item_specific_data.dart;DocumentItemSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "DocumentItemSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_item_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/document_specific_data.dart;package:part_catalog/features/core/document_specific_data.dart;DocumentSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "DocumentSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_status.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_status.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\entity_core_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\entity_core_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/entity_core_data.dart;package:part_catalog/features/core/entity_core_data.dart;EntityCoreData",
+      "type": "classType",
+      "properties": {
+        "name": "EntityCoreData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\entity_core_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\item_core_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\item_core_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/item_core_data.dart;package:part_catalog/features/core/item_core_data.dart;ItemCoreData",
+      "type": "classType",
+      "properties": {
+        "name": "ItemCoreData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\item_core_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_document_entity.dart;package:part_catalog/features/core/i_document_entity.dart;IDocumentEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IDocumentEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_item_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_item_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IDocumentItemEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_item_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_entity.dart;package:part_catalog/features/core/i_entity.dart;IEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_item_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_item_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_item_entity.dart;package:part_catalog/features/core/i_item_entity.dart;IItemEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IItemEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_item_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IReferenceEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_item_entity.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_item_entity.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/core/i_reference_item_entity.dart;package:part_catalog/features/core/i_reference_item_entity.dart;IReferenceItemEntity",
+      "type": "classType",
+      "properties": {
+        "name": "IReferenceItemEntity",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_item_entity.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_model_composite.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_model_composite.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/order_model_composite.dart;package:part_catalog/features/documents/orders/models/order_model_composite.dart;OrderModelComposite",
+      "type": "classType",
+      "properties": {
+        "name": "OrderModelComposite",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_model_composite.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_part_model_composite.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_part_model_composite.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;OrderPartModelComposite",
+      "type": "classType",
+      "properties": {
+        "name": "OrderPartModelComposite",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_part_model_composite.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_service_model_composite.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_service_model_composite.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;OrderServiceModelComposite",
+      "type": "classType",
+      "properties": {
+        "name": "OrderServiceModelComposite",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_service_model_composite.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/order_specific_data.dart;package:part_catalog/features/documents/orders/models/order_specific_data.dart;OrderSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "OrderSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_status.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_status.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\part_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\part_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/part_specific_data.dart;package:part_catalog/features/documents/orders/models/part_specific_data.dart;PartSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "PartSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\part_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\service_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\service_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/models/service_specific_data.dart;package:part_catalog/features/documents/orders/models/service_specific_data.dart;ServiceSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "ServiceSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\service_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersState",
+      "type": "classType",
+      "properties": {
+        "name": "OrdersState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersNotifier",
+      "type": "classType",
+      "properties": {
+        "name": "OrdersNotifier",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\order_form_notifier.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\order_form_notifier.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;OrderFormNotifier",
+      "type": "classType",
+      "properties": {
+        "name": "OrderFormNotifier",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\order_form_notifier.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\providers\\order_providers.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\providers\\order_providers.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;OrdersScreen",
+      "type": "classType",
+      "properties": {
+        "name": "OrdersScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;_OrdersScreenState",
+      "type": "classType",
+      "properties": {
+        "name": "_OrdersScreenState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_details_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_details_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_details_screen.dart;package:part_catalog/features/documents/orders/screens/order_details_screen.dart;OrderDetailsScreen",
+      "type": "classType",
+      "properties": {
+        "name": "OrderDetailsScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_details_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;OrderFormScreen",
+      "type": "classType",
+      "properties": {
+        "name": "OrderFormScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_OrderFormScreenState",
+      "type": "classType",
+      "properties": {
+        "name": "_OrderFormScreenState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ClientSelectionDialog",
+      "type": "classType",
+      "properties": {
+        "name": "_ClientSelectionDialog",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_CarSelectionDialog",
+      "type": "classType",
+      "properties": {
+        "name": "_CarSelectionDialog",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialog",
+      "type": "classType",
+      "properties": {
+        "name": "_ServiceFormDialog",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialogState",
+      "type": "classType",
+      "properties": {
+        "name": "_ServiceFormDialogState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialog",
+      "type": "classType",
+      "properties": {
+        "name": "_PartFormDialog",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialogState",
+      "type": "classType",
+      "properties": {
+        "name": "_PartFormDialogState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\services\\order_service.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\services\\order_service.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/services/order_service.dart;package:part_catalog/features/documents/orders/services/order_service.dart;OrderService",
+      "type": "classType",
+      "properties": {
+        "name": "OrderService",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\services\\order_service.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\state\\order_form_state.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\state\\order_form_state.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/state/order_form_state.dart;package:part_catalog/features/documents/orders/state/order_form_state.dart;OrderFormState",
+      "type": "classType",
+      "properties": {
+        "name": "OrderFormState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\state\\order_form_state.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\widgets\\order_list_item.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\widgets\\order_list_item.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/documents/orders/widgets/order_list_item.dart;package:part_catalog/features/documents/orders/widgets/order_list_item.dart;OrderListItem",
+      "type": "classType",
+      "properties": {
+        "name": "OrderListItem",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\widgets\\order_list_item.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\models\\navigation_item.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\models\\navigation_item.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/home/models/navigation_item.dart;package:part_catalog/features/home/models/navigation_item.dart;NavigationItem",
+      "type": "classType",
+      "properties": {
+        "name": "NavigationItem",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\models\\navigation_item.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\screens\\home_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\screens\\home_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/home/screens/home_screen.dart;package:part_catalog/features/home/screens/home_screen.dart;HomeScreen",
+      "type": "classType",
+      "properties": {
+        "name": "HomeScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\screens\\home_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\api\\api_client_parts_catalogs.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\api\\api_client_parts_catalogs.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;ApiClientPartsCatalogs",
+      "type": "classType",
+      "properties": {
+        "name": "ApiClientPartsCatalogs",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\api\\api_client_parts_catalogs.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;Car2",
+      "type": "classType",
+      "properties": {
+        "name": "Car2",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;CarParameter",
+      "type": "classType",
+      "properties": {
+        "name": "CarParameter",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_info.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_info.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car_info.dart;package:part_catalog/features/parts_catalog/models/car_info.dart;CarInfo",
+      "type": "classType",
+      "properties": {
+        "name": "CarInfo",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_info.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car_parameter.dart;package:part_catalog/features/parts_catalog/models/car_parameter.dart;CarParameter",
+      "type": "classType",
+      "properties": {
+        "name": "CarParameter",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_idx.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_idx.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;CarParameterIdx",
+      "type": "classType",
+      "properties": {
+        "name": "CarParameterIdx",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_idx.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarParameterInfo",
+      "type": "classType",
+      "properties": {
+        "name": "CarParameterInfo",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarFilterValues",
+      "type": "classType",
+      "properties": {
+        "name": "CarFilterValues",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\catalog.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\catalog.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/catalog.dart;package:part_catalog/features/parts_catalog/models/catalog.dart;Catalog",
+      "type": "classType",
+      "properties": {
+        "name": "Catalog",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\catalog.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\error.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\error.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/error.dart;package:part_catalog/features/parts_catalog/models/error.dart;Error",
+      "type": "classType",
+      "properties": {
+        "name": "Error",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\error.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\example_prices_response.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\example_prices_response.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/example_prices_response.dart;package:part_catalog/features/parts_catalog/models/example_prices_response.dart;ExamplePricesResponse",
+      "type": "classType",
+      "properties": {
+        "name": "ExamplePricesResponse",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\example_prices_response.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\group.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\group.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/group.dart;package:part_catalog/features/parts_catalog/models/group.dart;Group",
+      "type": "classType",
+      "properties": {
+        "name": "Group",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\group.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/groups_tree.dart;package:part_catalog/features/parts_catalog/models/groups_tree.dart;GroupsTree",
+      "type": "classType",
+      "properties": {
+        "name": "GroupsTree",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree_response.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree_response.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;GroupsTreeResponse",
+      "type": "classType",
+      "properties": {
+        "name": "GroupsTreeResponse",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree_response.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\ip.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\ip.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/ip.dart;package:part_catalog/features/parts_catalog/models/ip.dart;Ip",
+      "type": "classType",
+      "properties": {
+        "name": "Ip",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\ip.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\model.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\model.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/model.dart;package:part_catalog/features/parts_catalog/models/model.dart;Model",
+      "type": "classType",
+      "properties": {
+        "name": "Model",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\model.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\option_code.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\option_code.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/option_code.dart;package:part_catalog/features/parts_catalog/models/option_code.dart;OptionCode",
+      "type": "classType",
+      "properties": {
+        "name": "OptionCode",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\option_code.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/part.dart;package:part_catalog/features/parts_catalog/models/part.dart;Part",
+      "type": "classType",
+      "properties": {
+        "name": "Part",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Parts",
+      "type": "classType",
+      "properties": {
+        "name": "Parts",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;PartsGroup",
+      "type": "classType",
+      "properties": {
+        "name": "PartsGroup",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Position",
+      "type": "classType",
+      "properties": {
+        "name": "Position",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts_group.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts_group.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/parts_group.dart;package:part_catalog/features/parts_catalog/models/parts_group.dart;PartsGroup",
+      "type": "classType",
+      "properties": {
+        "name": "PartsGroup",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts_group.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part_name.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part_name.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/part_name.dart;package:part_catalog/features/parts_catalog/models/part_name.dart;PartName",
+      "type": "classType",
+      "properties": {
+        "name": "PartName",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part_name.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\position.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\position.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/position.dart;package:part_catalog/features/parts_catalog/models/position.dart;Position",
+      "type": "classType",
+      "properties": {
+        "name": "Position",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\position.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schemas_response.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schemas_response.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/schemas_response.dart;package:part_catalog/features/parts_catalog/models/schemas_response.dart;SchemasResponse",
+      "type": "classType",
+      "properties": {
+        "name": "SchemasResponse",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schemas_response.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schema_model.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schema_model.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/schema_model.dart;package:part_catalog/features/parts_catalog/models/schema_model.dart;SchemaModel",
+      "type": "classType",
+      "properties": {
+        "name": "SchemaModel",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schema_model.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\suggest.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\suggest.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/models/suggest.dart;package:part_catalog/features/parts_catalog/models/suggest.dart;Suggest",
+      "type": "classType",
+      "properties": {
+        "name": "Suggest",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\suggest.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoWidget",
+      "type": "classType",
+      "properties": {
+        "name": "CarInfoWidget",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;_CarInfoWidgetState",
+      "type": "classType",
+      "properties": {
+        "name": "_CarInfoWidgetState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoCard",
+      "type": "classType",
+      "properties": {
+        "name": "CarInfoCard",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;SchemaListWidget",
+      "type": "classType",
+      "properties": {
+        "name": "SchemaListWidget",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;_SchemaListWidgetState",
+      "type": "classType",
+      "properties": {
+        "name": "_SchemaListWidgetState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_model_composite.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_model_composite.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/models/client_model_composite.dart;package:part_catalog/features/references/clients/models/client_model_composite.dart;ClientModelComposite",
+      "type": "classType",
+      "properties": {
+        "name": "ClientModelComposite",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_model_composite.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/models/client_specific_data.dart;package:part_catalog/features/references/clients/models/client_specific_data.dart;ClientSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "ClientSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_type.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_type.dart"
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\providers\\client_providers.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\providers\\client_providers.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/providers/client_providers.dart;package:part_catalog/features/references/clients/providers/client_providers.dart;ClientsNotifier",
+      "type": "classType",
+      "properties": {
+        "name": "ClientsNotifier",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\providers\\client_providers.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientsScreen",
+      "type": "classType",
+      "properties": {
+        "name": "ClientsScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;_ClientsScreenState",
+      "type": "classType",
+      "properties": {
+        "name": "_ClientsScreenState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientSearchDelegate",
+      "type": "classType",
+      "properties": {
+        "name": "ClientSearchDelegate",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\services\\client_service.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\services\\client_service.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/clients/services/client_service.dart;package:part_catalog/features/references/clients/services/client_service.dart;ClientService",
+      "type": "classType",
+      "properties": {
+        "name": "ClientService",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\services\\client_service.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\price_offer.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\price_offer.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/suppliers/models/price_offer.dart;package:part_catalog/features/references/suppliers/models/price_offer.dart;PriceOffer",
+      "type": "classType",
+      "properties": {
+        "name": "PriceOffer",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\price_offer.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\supplier.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\supplier.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/suppliers/models/supplier.dart;package:part_catalog/features/references/suppliers/models/supplier.dart;Supplier",
+      "type": "classType",
+      "properties": {
+        "name": "Supplier",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\supplier.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_model_composite.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_model_composite.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/models/car_model_composite.dart;package:part_catalog/features/references/vehicles/models/car_model_composite.dart;CarModelComposite",
+      "type": "classType",
+      "properties": {
+        "name": "CarModelComposite",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_model_composite.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_specific_data.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_specific_data.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/models/car_specific_data.dart;package:part_catalog/features/references/vehicles/models/car_specific_data.dart;CarSpecificData",
+      "type": "classType",
+      "properties": {
+        "name": "CarSpecificData",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_specific_data.dart",
+        "isAbstract": true
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\providers\\car_providers.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\providers\\car_providers.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/providers/car_providers.dart;package:part_catalog/features/references/vehicles/providers/car_providers.dart;CarsNotifier",
+      "type": "classType",
+      "properties": {
+        "name": "CarsNotifier",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\providers\\car_providers.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;CarsScreen",
+      "type": "classType",
+      "properties": {
+        "name": "CarsScreen",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;_CarsScreenState",
+      "type": "classType",
+      "properties": {
+        "name": "_CarsScreenState",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarWithOwnerModel",
+      "type": "classType",
+      "properties": {
+        "name": "CarWithOwnerModel",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarService",
+      "type": "classType",
+      "properties": {
+        "name": "CarService",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+        "isAbstract": false
+      }
+    },
+    {
+      "id": "c:\\flutterproject\\part_catalog\\lib\\main.dart",
+      "type": "fileType",
+      "properties": {
+        "path": "c:\\flutterproject\\part_catalog\\lib\\main.dart"
+      }
+    },
+    {
+      "id": "package:part_catalog/main.dart;package:part_catalog/main.dart;MyApp",
+      "type": "classType",
+      "properties": {
+        "name": "MyApp",
+        "filePath": "c:\\flutterproject\\part_catalog\\lib\\main.dart",
+        "isAbstract": false
+      }
+    }
+  ],
+  "edges": [
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarFullData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarFullData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarWithOwnerData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarWithOwnerData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarsDao",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarsDao",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\cars_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarsDao",
+      "targetId": "package:drift/src/runtime/api/runtime_api.dart;package:drift/src/runtime/api/dao_base.dart;DatabaseAccessor",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.dart;CarsDao",
+      "targetId": "package:part_catalog/core/database/daos/cars_dao.dart;package:part_catalog/core/database/daos/cars_dao.g.dart;_$CarsDaoMixin",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientFullData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientFullData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientsDao",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientsDao",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\clients_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientsDao",
+      "targetId": "package:drift/src/runtime/api/runtime_api.dart;package:drift/src/runtime/api/dao_base.dart;DatabaseAccessor",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.dart;ClientsDao",
+      "targetId": "package:part_catalog/core/database/daos/clients_dao.dart;package:part_catalog/core/database/daos/clients_dao.g.dart;_$ClientsDaoMixin",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrderHeaderData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrderHeaderData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderItemData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderItemData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;FullOrderData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrdersDao",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrdersDao",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrdersDao",
+      "targetId": "package:drift/src/runtime/api/runtime_api.dart;package:drift/src/runtime/api/dao_base.dart;DatabaseAccessor",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;OrdersDao",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.g.dart;_$OrdersDaoMixin",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "targetId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;Tuple3",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/daos/orders_dao.dart;package:part_catalog/core/database/daos/orders_dao.dart;Tuple3",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\daos\\orders_dao.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database.dart",
+      "targetId": "package:part_catalog/core/database/database.dart;package:part_catalog/core/database/database.dart;AppDatabase",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/database.dart;package:part_catalog/core/database/database.dart;AppDatabase",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/database.dart;package:part_catalog/core/database/database.dart;AppDatabase",
+      "targetId": "package:part_catalog/core/database/database.dart;package:part_catalog/core/database/database.g.dart;_$AppDatabase",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database_logger.dart",
+      "targetId": "package:part_catalog/core/database/database_logger.dart;package:part_catalog/core/database/database_logger.dart;DatabaseLogger",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/database_logger.dart;package:part_catalog/core/database/database_logger.dart;DatabaseLogger",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\database_logger.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/database_logger.dart;package:part_catalog/core/database/database_logger.dart;DatabaseLogger",
+      "targetId": "package:drift/src/runtime/executor/executor.dart;package:drift/src/runtime/executor/executor.dart;QueryExecutorUser",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\app_info_items.dart",
+      "targetId": "package:part_catalog/core/database/items/app_info_items.dart;package:part_catalog/core/database/items/app_info_items.dart;AppInfoItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/app_info_items.dart;package:part_catalog/core/database/items/app_info_items.dart;AppInfoItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\app_info_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/app_info_items.dart;package:part_catalog/core/database/items/app_info_items.dart;AppInfoItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\cars_items.dart",
+      "targetId": "package:part_catalog/core/database/items/cars_items.dart;package:part_catalog/core/database/items/cars_items.dart;CarsItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/cars_items.dart;package:part_catalog/core/database/items/cars_items.dart;CarsItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\cars_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/cars_items.dart;package:part_catalog/core/database/items/cars_items.dart;CarsItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\clients_items.dart",
+      "targetId": "package:part_catalog/core/database/items/clients_items.dart;package:part_catalog/core/database/items/clients_items.dart;ClientsItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/clients_items.dart;package:part_catalog/core/database/items/clients_items.dart;ClientsItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\clients_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/clients_items.dart;package:part_catalog/core/database/items/clients_items.dart;ClientsItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\orders_items.dart",
+      "targetId": "package:part_catalog/core/database/items/orders_items.dart;package:part_catalog/core/database/items/orders_items.dart;OrdersItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/orders_items.dart;package:part_catalog/core/database/items/orders_items.dart;OrdersItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\orders_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/orders_items.dart;package:part_catalog/core/database/items/orders_items.dart;OrdersItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_parts_items.dart",
+      "targetId": "package:part_catalog/core/database/items/order_parts_items.dart;package:part_catalog/core/database/items/order_parts_items.dart;OrderPartsItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/order_parts_items.dart;package:part_catalog/core/database/items/order_parts_items.dart;OrderPartsItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_parts_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/order_parts_items.dart;package:part_catalog/core/database/items/order_parts_items.dart;OrderPartsItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_services_items.dart",
+      "targetId": "package:part_catalog/core/database/items/order_services_items.dart;package:part_catalog/core/database/items/order_services_items.dart;OrderServicesItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/order_services_items.dart;package:part_catalog/core/database/items/order_services_items.dart;OrderServicesItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\order_services_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/order_services_items.dart;package:part_catalog/core/database/items/order_services_items.dart;OrderServicesItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\reference_closure_items.dart",
+      "targetId": "package:part_catalog/core/database/items/reference_closure_items.dart;package:part_catalog/core/database/items/reference_closure_items.dart;ReferenceClosureItems",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/reference_closure_items.dart;package:part_catalog/core/database/items/reference_closure_items.dart;ReferenceClosureItems",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\items\\reference_closure_items.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/items/reference_closure_items.dart;package:part_catalog/core/database/items/reference_closure_items.dart;ReferenceClosureItems",
+      "targetId": "package:drift/src/dsl/dsl.dart;package:drift/src/dsl/table.dart;Table",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\schema_synchronizer.dart",
+      "targetId": "package:part_catalog/core/database/schema_synchronizer.dart;package:part_catalog/core/database/schema_synchronizer.dart;SchemaSynchronizer",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/database/schema_synchronizer.dart;package:part_catalog/core/database/schema_synchronizer.dart;SchemaSynchronizer",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\database\\schema_synchronizer.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+      "targetId": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;CustomAppLocale",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;CustomAppLocale",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+      "targetId": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;_LocalizationsDelegate",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;_LocalizationsDelegate",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\i18n\\custom_app_locale.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/i18n/custom_app_locale.dart;package:part_catalog/core/i18n/custom_app_locale.dart;_LocalizationsDelegate",
+      "targetId": "package:flutter/src/widgets/localizations.dart;package:flutter/src/widgets/localizations.dart;LocalizationsDelegate",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_routes.dart",
+      "targetId": "package:part_catalog/core/navigation/app_routes.dart;package:part_catalog/core/navigation/app_routes.dart;AppRoutes",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/navigation/app_routes.dart;package:part_catalog/core/navigation/app_routes.dart;AppRoutes",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\navigation\\app_routes.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\json_converter.dart",
+      "targetId": "package:part_catalog/core/utils/json_converter.dart;package:part_catalog/core/utils/json_converter.dart;JsonConverter",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/utils/json_converter.dart;package:part_catalog/core/utils/json_converter.dart;JsonConverter",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\json_converter.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/utils/json_converter.dart;package:part_catalog/core/utils/json_converter.dart;JsonConverter",
+      "targetId": "package:drift/src/runtime/types/converters.dart;package:drift/src/runtime/types/converters.dart;TypeConverter",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\logger_config.dart",
+      "targetId": "package:part_catalog/core/utils/logger_config.dart;package:part_catalog/core/utils/logger_config.dart;AppLoggers",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/utils/logger_config.dart;package:part_catalog/core/utils/logger_config.dart;AppLoggers",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\logger_config.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\log_messages.dart",
+      "targetId": "package:part_catalog/core/utils/log_messages.dart;package:part_catalog/core/utils/log_messages.dart;LogMessages",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/utils/log_messages.dart;package:part_catalog/core/utils/log_messages.dart;LogMessages",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\utils\\log_messages.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\core\\widgets\\language_switcher.dart",
+      "targetId": "package:part_catalog/core/widgets/language_switcher.dart;package:part_catalog/core/widgets/language_switcher.dart;LanguageSwitcher",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/widgets/language_switcher.dart;package:part_catalog/core/widgets/language_switcher.dart;LanguageSwitcher",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\core\\widgets\\language_switcher.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/core/widgets/language_switcher.dart;package:part_catalog/core/widgets/language_switcher.dart;LanguageSwitcher",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatelessWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_item_specific_data.dart",
+      "targetId": "package:part_catalog/features/core/document_item_specific_data.dart;package:part_catalog/features/core/document_item_specific_data.dart;DocumentItemSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/document_item_specific_data.dart;package:part_catalog/features/core/document_item_specific_data.dart;DocumentItemSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_item_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/document_item_specific_data.dart;package:part_catalog/features/core/document_item_specific_data.dart;DocumentItemSpecificData",
+      "targetId": "package:part_catalog/features/core/document_item_specific_data.dart;package:part_catalog/features/core/document_item_specific_data.freezed.dart;_$DocumentItemSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_specific_data.dart",
+      "targetId": "package:part_catalog/features/core/document_specific_data.dart;package:part_catalog/features/core/document_specific_data.dart;DocumentSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/document_specific_data.dart;package:part_catalog/features/core/document_specific_data.dart;DocumentSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\document_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/document_specific_data.dart;package:part_catalog/features/core/document_specific_data.dart;DocumentSpecificData",
+      "targetId": "package:part_catalog/features/core/document_specific_data.dart;package:part_catalog/features/core/document_specific_data.freezed.dart;_$DocumentSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\entity_core_data.dart",
+      "targetId": "package:part_catalog/features/core/entity_core_data.dart;package:part_catalog/features/core/entity_core_data.dart;EntityCoreData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/entity_core_data.dart;package:part_catalog/features/core/entity_core_data.dart;EntityCoreData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\entity_core_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/entity_core_data.dart;package:part_catalog/features/core/entity_core_data.dart;EntityCoreData",
+      "targetId": "package:part_catalog/features/core/entity_core_data.dart;package:part_catalog/features/core/entity_core_data.freezed.dart;_$EntityCoreData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\item_core_data.dart",
+      "targetId": "package:part_catalog/features/core/item_core_data.dart;package:part_catalog/features/core/item_core_data.dart;ItemCoreData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/item_core_data.dart;package:part_catalog/features/core/item_core_data.dart;ItemCoreData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\item_core_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/item_core_data.dart;package:part_catalog/features/core/item_core_data.dart;ItemCoreData",
+      "targetId": "package:part_catalog/features/core/item_core_data.dart;package:part_catalog/features/core/item_core_data.freezed.dart;_$ItemCoreData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_document_entity.dart;package:part_catalog/features/core/i_document_entity.dart;IDocumentEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_document_entity.dart;package:part_catalog/features/core/i_document_entity.dart;IDocumentEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_document_entity.dart;package:part_catalog/features/core/i_document_entity.dart;IDocumentEntity",
+      "targetId": "package:part_catalog/features/core/i_entity.dart;package:part_catalog/features/core/i_entity.dart;IEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_item_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_document_item_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "targetId": "package:part_catalog/features/core/i_item_entity.dart;package:part_catalog/features/core/i_item_entity.dart;IItemEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_entity.dart;package:part_catalog/features/core/i_entity.dart;IEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_entity.dart;package:part_catalog/features/core/i_entity.dart;IEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_item_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_item_entity.dart;package:part_catalog/features/core/i_item_entity.dart;IItemEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_item_entity.dart;package:part_catalog/features/core/i_item_entity.dart;IItemEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_item_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "targetId": "package:part_catalog/features/core/i_entity.dart;package:part_catalog/features/core/i_entity.dart;IEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_item_entity.dart",
+      "targetId": "package:part_catalog/features/core/i_reference_item_entity.dart;package:part_catalog/features/core/i_reference_item_entity.dart;IReferenceItemEntity",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_reference_item_entity.dart;package:part_catalog/features/core/i_reference_item_entity.dart;IReferenceItemEntity",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\core\\i_reference_item_entity.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/core/i_reference_item_entity.dart;package:part_catalog/features/core/i_reference_item_entity.dart;IReferenceItemEntity",
+      "targetId": "package:part_catalog/features/core/i_item_entity.dart;package:part_catalog/features/core/i_item_entity.dart;IItemEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_model_composite.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/order_model_composite.dart;package:part_catalog/features/documents/orders/models/order_model_composite.dart;OrderModelComposite",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_model_composite.dart;package:part_catalog/features/documents/orders/models/order_model_composite.dart;OrderModelComposite",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_model_composite.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_model_composite.dart;package:part_catalog/features/documents/orders/models/order_model_composite.dart;OrderModelComposite",
+      "targetId": "package:part_catalog/features/core/i_document_entity.dart;package:part_catalog/features/core/i_document_entity.dart;IDocumentEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_part_model_composite.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;OrderPartModelComposite",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;OrderPartModelComposite",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_part_model_composite.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;package:part_catalog/features/documents/orders/models/order_part_model_composite.dart;OrderPartModelComposite",
+      "targetId": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_service_model_composite.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;OrderServiceModelComposite",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;OrderServiceModelComposite",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_service_model_composite.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;package:part_catalog/features/documents/orders/models/order_service_model_composite.dart;OrderServiceModelComposite",
+      "targetId": "package:part_catalog/features/core/i_document_item_entity.dart;package:part_catalog/features/core/i_document_item_entity.dart;IDocumentItemEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_specific_data.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/order_specific_data.dart;package:part_catalog/features/documents/orders/models/order_specific_data.dart;OrderSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_specific_data.dart;package:part_catalog/features/documents/orders/models/order_specific_data.dart;OrderSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\order_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/order_specific_data.dart;package:part_catalog/features/documents/orders/models/order_specific_data.dart;OrderSpecificData",
+      "targetId": "package:part_catalog/features/documents/orders/models/order_specific_data.dart;package:part_catalog/features/documents/orders/models/order_specific_data.freezed.dart;_$OrderSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\part_specific_data.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/part_specific_data.dart;package:part_catalog/features/documents/orders/models/part_specific_data.dart;PartSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/part_specific_data.dart;package:part_catalog/features/documents/orders/models/part_specific_data.dart;PartSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\part_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/part_specific_data.dart;package:part_catalog/features/documents/orders/models/part_specific_data.dart;PartSpecificData",
+      "targetId": "package:part_catalog/features/documents/orders/models/part_specific_data.dart;package:part_catalog/features/documents/orders/models/part_specific_data.freezed.dart;_$PartSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\service_specific_data.dart",
+      "targetId": "package:part_catalog/features/documents/orders/models/service_specific_data.dart;package:part_catalog/features/documents/orders/models/service_specific_data.dart;ServiceSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/service_specific_data.dart;package:part_catalog/features/documents/orders/models/service_specific_data.dart;ServiceSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\models\\service_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/models/service_specific_data.dart;package:part_catalog/features/documents/orders/models/service_specific_data.dart;ServiceSpecificData",
+      "targetId": "package:part_catalog/features/documents/orders/models/service_specific_data.dart;package:part_catalog/features/documents/orders/models/service_specific_data.freezed.dart;_$ServiceSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+      "targetId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+      "targetId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersNotifier",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersNotifier",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\orders_notifier.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;OrdersNotifier",
+      "targetId": "package:part_catalog/features/documents/orders/notifiers/orders_notifier.dart;package:part_catalog/features/documents/orders/notifiers/orders_notifier.g.dart;_$OrdersNotifier",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\order_form_notifier.dart",
+      "targetId": "package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;OrderFormNotifier",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;OrderFormNotifier",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\notifiers\\order_form_notifier.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;package:part_catalog/features/documents/orders/notifiers/order_form_notifier.dart;OrderFormNotifier",
+      "targetId": "package:state_notifier/state_notifier.dart;package:state_notifier/state_notifier.dart;StateNotifier",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;OrdersScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;OrdersScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;OrdersScreen",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;_OrdersScreenState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;_OrdersScreenState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\orders_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/orders_screen.dart;package:part_catalog/features/documents/orders/screens/orders_screen.dart;_OrdersScreenState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_details_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_details_screen.dart;package:part_catalog/features/documents/orders/screens/order_details_screen.dart;OrderDetailsScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_details_screen.dart;package:part_catalog/features/documents/orders/screens/order_details_screen.dart;OrderDetailsScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_details_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_details_screen.dart;package:part_catalog/features/documents/orders/screens/order_details_screen.dart;OrderDetailsScreen",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;OrderFormScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;OrderFormScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;OrderFormScreen",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_OrderFormScreenState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_OrderFormScreenState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_OrderFormScreenState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ClientSelectionDialog",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ClientSelectionDialog",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ClientSelectionDialog",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_CarSelectionDialog",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_CarSelectionDialog",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_CarSelectionDialog",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialog",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialog",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialog",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialogState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialogState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_ServiceFormDialogState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialog",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialog",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialog",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "targetId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialogState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialogState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\screens\\order_form_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/screens/order_form_screen.dart;package:part_catalog/features/documents/orders/screens/order_form_screen.dart;_PartFormDialogState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\services\\order_service.dart",
+      "targetId": "package:part_catalog/features/documents/orders/services/order_service.dart;package:part_catalog/features/documents/orders/services/order_service.dart;OrderService",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/services/order_service.dart;package:part_catalog/features/documents/orders/services/order_service.dart;OrderService",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\services\\order_service.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\state\\order_form_state.dart",
+      "targetId": "package:part_catalog/features/documents/orders/state/order_form_state.dart;package:part_catalog/features/documents/orders/state/order_form_state.dart;OrderFormState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/state/order_form_state.dart;package:part_catalog/features/documents/orders/state/order_form_state.dart;OrderFormState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\state\\order_form_state.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/state/order_form_state.dart;package:part_catalog/features/documents/orders/state/order_form_state.dart;OrderFormState",
+      "targetId": "package:part_catalog/features/documents/orders/state/order_form_state.dart;package:part_catalog/features/documents/orders/state/order_form_state.freezed.dart;_$OrderFormState",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\widgets\\order_list_item.dart",
+      "targetId": "package:part_catalog/features/documents/orders/widgets/order_list_item.dart;package:part_catalog/features/documents/orders/widgets/order_list_item.dart;OrderListItem",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/widgets/order_list_item.dart;package:part_catalog/features/documents/orders/widgets/order_list_item.dart;OrderListItem",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\documents\\orders\\widgets\\order_list_item.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/documents/orders/widgets/order_list_item.dart;package:part_catalog/features/documents/orders/widgets/order_list_item.dart;OrderListItem",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatelessWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\models\\navigation_item.dart",
+      "targetId": "package:part_catalog/features/home/models/navigation_item.dart;package:part_catalog/features/home/models/navigation_item.dart;NavigationItem",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/home/models/navigation_item.dart;package:part_catalog/features/home/models/navigation_item.dart;NavigationItem",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\models\\navigation_item.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\screens\\home_screen.dart",
+      "targetId": "package:part_catalog/features/home/screens/home_screen.dart;package:part_catalog/features/home/screens/home_screen.dart;HomeScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/home/screens/home_screen.dart;package:part_catalog/features/home/screens/home_screen.dart;HomeScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\home\\screens\\home_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/home/screens/home_screen.dart;package:part_catalog/features/home/screens/home_screen.dart;HomeScreen",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatelessWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\api\\api_client_parts_catalogs.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;ApiClientPartsCatalogs",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;package:part_catalog/features/parts_catalog/api/api_client_parts_catalogs.dart;ApiClientPartsCatalogs",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\api\\api_client_parts_catalogs.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;Car2",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;Car2",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;Car2",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.freezed.dart;_$Car2",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;CarParameter",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;CarParameter",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car2.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.dart;CarParameter",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car2.dart;package:part_catalog/features/parts_catalog/models/car2.freezed.dart;_$CarParameter",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_info.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_info.dart;package:part_catalog/features/parts_catalog/models/car_info.dart;CarInfo",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_info.dart;package:part_catalog/features/parts_catalog/models/car_info.dart;CarInfo",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_info.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_info.dart;package:part_catalog/features/parts_catalog/models/car_info.dart;CarInfo",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_info.dart;package:part_catalog/features/parts_catalog/models/car_info.freezed.dart;_$CarInfo",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter.dart;package:part_catalog/features/parts_catalog/models/car_parameter.dart;CarParameter",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter.dart;package:part_catalog/features/parts_catalog/models/car_parameter.dart;CarParameter",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter.dart;package:part_catalog/features/parts_catalog/models/car_parameter.dart;CarParameter",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter.dart;package:part_catalog/features/parts_catalog/models/car_parameter.freezed.dart;_$CarParameter",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_idx.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;CarParameterIdx",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;CarParameterIdx",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_idx.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;CarParameterIdx",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_idx.dart;package:part_catalog/features/parts_catalog/models/car_parameter_idx.freezed.dart;_$CarParameterIdx",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarParameterInfo",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarParameterInfo",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarParameterInfo",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.freezed.dart;_$CarParameterInfo",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarFilterValues",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarFilterValues",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\car_parameter_info.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;CarFilterValues",
+      "targetId": "package:part_catalog/features/parts_catalog/models/car_parameter_info.dart;package:part_catalog/features/parts_catalog/models/car_parameter_info.freezed.dart;_$CarFilterValues",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\catalog.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/catalog.dart;package:part_catalog/features/parts_catalog/models/catalog.dart;Catalog",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/catalog.dart;package:part_catalog/features/parts_catalog/models/catalog.dart;Catalog",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\catalog.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/catalog.dart;package:part_catalog/features/parts_catalog/models/catalog.dart;Catalog",
+      "targetId": "package:part_catalog/features/parts_catalog/models/catalog.dart;package:part_catalog/features/parts_catalog/models/catalog.freezed.dart;_$Catalog",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\error.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/error.dart;package:part_catalog/features/parts_catalog/models/error.dart;Error",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/error.dart;package:part_catalog/features/parts_catalog/models/error.dart;Error",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\error.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/error.dart;package:part_catalog/features/parts_catalog/models/error.dart;Error",
+      "targetId": "package:part_catalog/features/parts_catalog/models/error.dart;package:part_catalog/features/parts_catalog/models/error.freezed.dart;_$Error",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\example_prices_response.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/example_prices_response.dart;package:part_catalog/features/parts_catalog/models/example_prices_response.dart;ExamplePricesResponse",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/example_prices_response.dart;package:part_catalog/features/parts_catalog/models/example_prices_response.dart;ExamplePricesResponse",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\example_prices_response.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/example_prices_response.dart;package:part_catalog/features/parts_catalog/models/example_prices_response.dart;ExamplePricesResponse",
+      "targetId": "package:part_catalog/features/parts_catalog/models/example_prices_response.dart;package:part_catalog/features/parts_catalog/models/example_prices_response.freezed.dart;_$ExamplePricesResponse",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\group.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/group.dart;package:part_catalog/features/parts_catalog/models/group.dart;Group",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/group.dart;package:part_catalog/features/parts_catalog/models/group.dart;Group",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\group.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/group.dart;package:part_catalog/features/parts_catalog/models/group.dart;Group",
+      "targetId": "package:part_catalog/features/parts_catalog/models/group.dart;package:part_catalog/features/parts_catalog/models/group.freezed.dart;_$Group",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/groups_tree.dart;package:part_catalog/features/parts_catalog/models/groups_tree.dart;GroupsTree",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/groups_tree.dart;package:part_catalog/features/parts_catalog/models/groups_tree.dart;GroupsTree",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/groups_tree.dart;package:part_catalog/features/parts_catalog/models/groups_tree.dart;GroupsTree",
+      "targetId": "package:part_catalog/features/parts_catalog/models/groups_tree.dart;package:part_catalog/features/parts_catalog/models/groups_tree.freezed.dart;_$GroupsTree",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree_response.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;GroupsTreeResponse",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;GroupsTreeResponse",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\groups_tree_response.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;GroupsTreeResponse",
+      "targetId": "package:part_catalog/features/parts_catalog/models/groups_tree_response.dart;package:part_catalog/features/parts_catalog/models/groups_tree_response.freezed.dart;_$GroupsTreeResponse",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\ip.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/ip.dart;package:part_catalog/features/parts_catalog/models/ip.dart;Ip",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/ip.dart;package:part_catalog/features/parts_catalog/models/ip.dart;Ip",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\ip.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/ip.dart;package:part_catalog/features/parts_catalog/models/ip.dart;Ip",
+      "targetId": "package:part_catalog/features/parts_catalog/models/ip.dart;package:part_catalog/features/parts_catalog/models/ip.freezed.dart;_$Ip",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\model.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/model.dart;package:part_catalog/features/parts_catalog/models/model.dart;Model",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/model.dart;package:part_catalog/features/parts_catalog/models/model.dart;Model",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\model.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/model.dart;package:part_catalog/features/parts_catalog/models/model.dart;Model",
+      "targetId": "package:part_catalog/features/parts_catalog/models/model.dart;package:part_catalog/features/parts_catalog/models/model.freezed.dart;_$Model",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\option_code.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/option_code.dart;package:part_catalog/features/parts_catalog/models/option_code.dart;OptionCode",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/option_code.dart;package:part_catalog/features/parts_catalog/models/option_code.dart;OptionCode",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\option_code.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/option_code.dart;package:part_catalog/features/parts_catalog/models/option_code.dart;OptionCode",
+      "targetId": "package:part_catalog/features/parts_catalog/models/option_code.dart;package:part_catalog/features/parts_catalog/models/option_code.freezed.dart;_$OptionCode",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/part.dart;package:part_catalog/features/parts_catalog/models/part.dart;Part",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/part.dart;package:part_catalog/features/parts_catalog/models/part.dart;Part",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/part.dart;package:part_catalog/features/parts_catalog/models/part.dart;Part",
+      "targetId": "package:part_catalog/features/parts_catalog/models/part.dart;package:part_catalog/features/parts_catalog/models/part.freezed.dart;_$Part",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Parts",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Parts",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Parts",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.freezed.dart;_$Parts",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;PartsGroup",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;PartsGroup",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;PartsGroup",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.freezed.dart;_$PartsGroup",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Position",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Position",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.dart;Position",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts.dart;package:part_catalog/features/parts_catalog/models/parts.freezed.dart;_$Position",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts_group.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts_group.dart;package:part_catalog/features/parts_catalog/models/parts_group.dart;PartsGroup",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts_group.dart;package:part_catalog/features/parts_catalog/models/parts_group.dart;PartsGroup",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\parts_group.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/parts_group.dart;package:part_catalog/features/parts_catalog/models/parts_group.dart;PartsGroup",
+      "targetId": "package:part_catalog/features/parts_catalog/models/parts_group.dart;package:part_catalog/features/parts_catalog/models/parts_group.freezed.dart;_$PartsGroup",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part_name.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/part_name.dart;package:part_catalog/features/parts_catalog/models/part_name.dart;PartName",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/part_name.dart;package:part_catalog/features/parts_catalog/models/part_name.dart;PartName",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\part_name.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/part_name.dart;package:part_catalog/features/parts_catalog/models/part_name.dart;PartName",
+      "targetId": "package:part_catalog/features/parts_catalog/models/part_name.dart;package:part_catalog/features/parts_catalog/models/part_name.freezed.dart;_$PartName",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\position.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/position.dart;package:part_catalog/features/parts_catalog/models/position.dart;Position",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/position.dart;package:part_catalog/features/parts_catalog/models/position.dart;Position",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\position.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/position.dart;package:part_catalog/features/parts_catalog/models/position.dart;Position",
+      "targetId": "package:part_catalog/features/parts_catalog/models/position.dart;package:part_catalog/features/parts_catalog/models/position.freezed.dart;_$Position",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schemas_response.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/schemas_response.dart;package:part_catalog/features/parts_catalog/models/schemas_response.dart;SchemasResponse",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/schemas_response.dart;package:part_catalog/features/parts_catalog/models/schemas_response.dart;SchemasResponse",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schemas_response.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/schemas_response.dart;package:part_catalog/features/parts_catalog/models/schemas_response.dart;SchemasResponse",
+      "targetId": "package:part_catalog/features/parts_catalog/models/schemas_response.dart;package:part_catalog/features/parts_catalog/models/schemas_response.freezed.dart;_$SchemasResponse",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schema_model.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/schema_model.dart;package:part_catalog/features/parts_catalog/models/schema_model.dart;SchemaModel",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/schema_model.dart;package:part_catalog/features/parts_catalog/models/schema_model.dart;SchemaModel",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\schema_model.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/schema_model.dart;package:part_catalog/features/parts_catalog/models/schema_model.dart;SchemaModel",
+      "targetId": "package:part_catalog/features/parts_catalog/models/schema_model.dart;package:part_catalog/features/parts_catalog/models/schema_model.freezed.dart;_$SchemaModel",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\suggest.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/models/suggest.dart;package:part_catalog/features/parts_catalog/models/suggest.dart;Suggest",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/suggest.dart;package:part_catalog/features/parts_catalog/models/suggest.dart;Suggest",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\models\\suggest.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/models/suggest.dart;package:part_catalog/features/parts_catalog/models/suggest.dart;Suggest",
+      "targetId": "package:part_catalog/features/parts_catalog/models/suggest.dart;package:part_catalog/features/parts_catalog/models/suggest.freezed.dart;_$Suggest",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoWidget",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoWidget",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoWidget",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;_CarInfoWidgetState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;_CarInfoWidgetState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;_CarInfoWidgetState",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;State",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoCard",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoCard",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\car_info_widget.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;package:part_catalog/features/parts_catalog/widgets/car_info_widget.dart;CarInfoCard",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatelessWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;SchemaListWidget",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;SchemaListWidget",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;SchemaListWidget",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+      "targetId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;_SchemaListWidgetState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;_SchemaListWidgetState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\parts_catalog\\widgets\\schema_list_widget.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;package:part_catalog/features/parts_catalog/widgets/schema_list_widget.dart;_SchemaListWidgetState",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;State",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_model_composite.dart",
+      "targetId": "package:part_catalog/features/references/clients/models/client_model_composite.dart;package:part_catalog/features/references/clients/models/client_model_composite.dart;ClientModelComposite",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/models/client_model_composite.dart;package:part_catalog/features/references/clients/models/client_model_composite.dart;ClientModelComposite",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_model_composite.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/models/client_model_composite.dart;package:part_catalog/features/references/clients/models/client_model_composite.dart;ClientModelComposite",
+      "targetId": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_specific_data.dart",
+      "targetId": "package:part_catalog/features/references/clients/models/client_specific_data.dart;package:part_catalog/features/references/clients/models/client_specific_data.dart;ClientSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/models/client_specific_data.dart;package:part_catalog/features/references/clients/models/client_specific_data.dart;ClientSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\models\\client_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/models/client_specific_data.dart;package:part_catalog/features/references/clients/models/client_specific_data.dart;ClientSpecificData",
+      "targetId": "package:part_catalog/features/references/clients/models/client_specific_data.dart;package:part_catalog/features/references/clients/models/client_specific_data.freezed.dart;_$ClientSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\providers\\client_providers.dart",
+      "targetId": "package:part_catalog/features/references/clients/providers/client_providers.dart;package:part_catalog/features/references/clients/providers/client_providers.dart;ClientsNotifier",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/providers/client_providers.dart;package:part_catalog/features/references/clients/providers/client_providers.dart;ClientsNotifier",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\providers\\client_providers.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/providers/client_providers.dart;package:part_catalog/features/references/clients/providers/client_providers.dart;ClientsNotifier",
+      "targetId": "package:part_catalog/features/references/clients/providers/client_providers.dart;package:part_catalog/features/references/clients/providers/client_providers.g.dart;_$ClientsNotifier",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "targetId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientsScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientsScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientsScreen",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "targetId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;_ClientsScreenState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;_ClientsScreenState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;_ClientsScreenState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "targetId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientSearchDelegate",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientSearchDelegate",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\screens\\clients_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/screens/clients_screen.dart;package:part_catalog/features/references/clients/screens/clients_screen.dart;ClientSearchDelegate",
+      "targetId": "package:flutter/src/material/search.dart;package:flutter/src/material/search.dart;SearchDelegate",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\services\\client_service.dart",
+      "targetId": "package:part_catalog/features/references/clients/services/client_service.dart;package:part_catalog/features/references/clients/services/client_service.dart;ClientService",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/clients/services/client_service.dart;package:part_catalog/features/references/clients/services/client_service.dart;ClientService",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\clients\\services\\client_service.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\price_offer.dart",
+      "targetId": "package:part_catalog/features/references/suppliers/models/price_offer.dart;package:part_catalog/features/references/suppliers/models/price_offer.dart;PriceOffer",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/suppliers/models/price_offer.dart;package:part_catalog/features/references/suppliers/models/price_offer.dart;PriceOffer",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\price_offer.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\supplier.dart",
+      "targetId": "package:part_catalog/features/references/suppliers/models/supplier.dart;package:part_catalog/features/references/suppliers/models/supplier.dart;Supplier",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/suppliers/models/supplier.dart;package:part_catalog/features/references/suppliers/models/supplier.dart;Supplier",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\suppliers\\models\\supplier.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_model_composite.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/models/car_model_composite.dart;package:part_catalog/features/references/vehicles/models/car_model_composite.dart;CarModelComposite",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/models/car_model_composite.dart;package:part_catalog/features/references/vehicles/models/car_model_composite.dart;CarModelComposite",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_model_composite.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/models/car_model_composite.dart;package:part_catalog/features/references/vehicles/models/car_model_composite.dart;CarModelComposite",
+      "targetId": "package:part_catalog/features/core/i_reference_entity.dart;package:part_catalog/features/core/i_reference_entity.dart;IReferenceEntity",
+      "type": "implementsType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_specific_data.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/models/car_specific_data.dart;package:part_catalog/features/references/vehicles/models/car_specific_data.dart;CarSpecificData",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/models/car_specific_data.dart;package:part_catalog/features/references/vehicles/models/car_specific_data.dart;CarSpecificData",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\models\\car_specific_data.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/models/car_specific_data.dart;package:part_catalog/features/references/vehicles/models/car_specific_data.dart;CarSpecificData",
+      "targetId": "package:part_catalog/features/references/vehicles/models/car_specific_data.dart;package:part_catalog/features/references/vehicles/models/car_specific_data.freezed.dart;_$CarSpecificData",
+      "type": "mixesInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\providers\\car_providers.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/providers/car_providers.dart;package:part_catalog/features/references/vehicles/providers/car_providers.dart;CarsNotifier",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/providers/car_providers.dart;package:part_catalog/features/references/vehicles/providers/car_providers.dart;CarsNotifier",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\providers\\car_providers.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/providers/car_providers.dart;package:part_catalog/features/references/vehicles/providers/car_providers.dart;CarsNotifier",
+      "targetId": "package:part_catalog/features/references/vehicles/providers/car_providers.dart;package:part_catalog/features/references/vehicles/providers/car_providers.g.dart;_$CarsNotifier",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;CarsScreen",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;CarsScreen",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;CarsScreen",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerStatefulWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;_CarsScreenState",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;_CarsScreenState",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\screens\\cars_screen.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/screens/cars_screen.dart;package:part_catalog/features/references/vehicles/screens/cars_screen.dart;_CarsScreenState",
+      "targetId": "package:flutter_riverpod/src/consumer.dart;package:flutter_riverpod/src/consumer.dart;ConsumerState",
+      "type": "inheritsFromType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarWithOwnerModel",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarWithOwnerModel",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+      "targetId": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarService",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/features/references/vehicles/services/car_service.dart;package:part_catalog/features/references/vehicles/services/car_service.dart;CarService",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\features\\references\\vehicles\\services\\car_service.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "c:\\flutterproject\\part_catalog\\lib\\main.dart",
+      "targetId": "package:part_catalog/main.dart;package:part_catalog/main.dart;MyApp",
+      "type": "declaresType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/main.dart;package:part_catalog/main.dart;MyApp",
+      "targetId": "c:\\flutterproject\\part_catalog\\lib\\main.dart",
+      "type": "definedInType",
+      "properties": {}
+    },
+    {
+      "sourceId": "package:part_catalog/main.dart;package:part_catalog/main.dart;MyApp",
+      "targetId": "package:flutter/src/widgets/framework.dart;package:flutter/src/widgets/framework.dart;StatelessWidget",
+      "type": "inheritsFromType",
+      "properties": {}
+    }
+  ]
+}

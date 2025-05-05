@@ -1,0 +1,18 @@
+name: dart_code_graph
+description: A package to analyze Dart code and build a knowledge graph (RAG).
+version: 0.1.0
+# homepage: https://example.com
+# repository: https://github.com/your_username/dart_code_graph
+
+environment:
+  sdk: '>=3.0.0 <4.0.0' # Убедитесь, что версия совместима
+
+# Add regular dependencies here.
+dependencies:
+  analyzer: ^7.4.4 # Используйте актуальную версию
+  path: ^1.9.1    # Используйте актуальную версию
+  logger: ^2.5.0  # Используйте актуальную версию
+
+dev_dependencies:
+  lints: ^5.1.1
+  test: ^1.24.0
