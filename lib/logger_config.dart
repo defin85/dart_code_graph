@@ -1,4 +1,3 @@
-// filepath: c:\FlutterProject\part_catalog\scripts\graph_builder\logger_config.dart
 import 'package:logger/logger.dart';
 
 /// Глобальный экземпляр логгера для всего скрипта

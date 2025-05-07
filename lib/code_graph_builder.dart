@@ -2,13 +2,15 @@ import 'package:analyzer/dart/analysis/analysis_context_collection.dart';
 import 'package:analyzer/dart/analysis/results.dart';
 import 'package:analyzer/dart/ast/ast.dart';
 import 'package:analyzer/dart/ast/visitor.dart';
-import 'package:analyzer/dart/element/element.dart'; // Добавлено для Element
+// Используем новую модель элементов
+import 'package:analyzer/dart/element/element2.dart';
 import 'package:path/path.dart' as p;
 import 'package:dart_code_graph/logger_config.dart'; // Импортируйте общую конфигурацию
 
 import 'package:dart_code_graph/models/graph_node.dart';
 import 'package:dart_code_graph/models/graph_edge.dart';
 
+/// Строит граф знаний из исходного кода Dart.
 class CodeGraphBuilder {
   final List<GraphNode> nodes = [];
   final List<GraphEdge> edges = [];
@@ -22,7 +24,7 @@ class CodeGraphBuilder {
 
     for (final context in collection.contexts) {
       final analyzedFiles = context.contextRoot.analyzedFiles().toList();
-      logger.i(// Changed from print
+      logger.i(
           'Analyzing ${analyzedFiles.length} files in ${context.contextRoot.root.path}...');
 
       for (final filePath in analyzedFiles) {
@@ -32,33 +34,38 @@ class CodeGraphBuilder {
         _processedFiles.add(filePath);
 
         try {
-          final result = await context.currentSession.getResolvedUnit(filePath);
-          if (result is ResolvedUnitResult) {
-            logger.i('Processing: $filePath'); // Changed from print
-            _processAst(result.unit, filePath);
+          // Используем getResolvedLibrary2 для получения информации о библиотеке
+          // Это может быть более надежно для получения всех фрагментов
+          final result =
+              await context.currentSession.getResolvedLibrary(filePath);
+          if (result is ResolvedLibraryResult) {
+            logger.i('Processing library associated with: $filePath');
+            // Обрабатываем каждый фрагмент (файл) в библиотеке
+            for (final unitResult in result.units) {
+              if (_processedFiles.contains(unitResult.path)) {
+                _processAst(unitResult.unit, unitResult.path);
+              }
+            }
           } else {
-            logger.e('Error resolving file: $filePath'); // Changed from print
+            logger.e('Error resolving library for file: $filePath');
           }
         } catch (e, stackTrace) {
           logger.e('Error processing file $filePath: $e',
-              error: e,
-              stackTrace:
-                  stackTrace); // Changed from print and added error/stackTrace parameters
-          // Логгирование ошибки уже выполнено логгером
+              error: e, stackTrace: stackTrace);
         }
       }
     }
-    logger.i(// Changed from print
+    logger.i(
         'Analysis complete. Found ${nodes.length} nodes and ${edges.length} edges.');
   }
 
-  /// Обрабатывает AST одного файла.
+  /// Обрабатывает AST одного файла (единицы компиляции).
   void _processAst(CompilationUnit unit, String filePath) {
-    // Создаем узел для файла
-    final fileNode = FileNode(path: filePath);
-    // Проверяем, не был ли узел файла уже добавлен (маловероятно, но для надежности)
+    // Создаем узел для файла, если его еще нет
     if (!nodes.any((node) => node is FileNode && node.id == filePath)) {
+      final fileNode = FileNode(path: filePath);
       nodes.add(fileNode);
+      logger.t('Added file node: $filePath');
     }
 
     // Запускаем посетителя AST
@@ -75,87 +82,109 @@ class CodeGraphBuilder {
   }
 }
 
-/// Посетитель AST для сбора информации о классах и миксинах.
+/// Посетитель AST для сбора информации о классах и миксинах с использованием Element Model 2.0.
 class _AstVisitor extends RecursiveAstVisitor<void> {
-  final String filePath;
+  final String filePath; // Путь к текущему обрабатываемому файлу
   final List<GraphNode> nodes;
   final List<GraphEdge> edges;
 
   _AstVisitor(this.filePath, this.nodes, this.edges);
 
-  /// Генерирует стабильный ID из Element.
-  /// Использует location, который включает путь к файлу и смещение.
-  String? _generateIdFromElement(Element? element) {
-    if (element == null || element.location == null) {
-      logger.w('Не удалось сгенерировать ID: Element или location is null.');
+  /// Генерирует стабильный ID из фрагмента объявления (Fragment).
+  /// Использует URI библиотеки, имя элемента и смещение имени в фрагменте.
+  // Изменяем параметр на Fragment? и переименовываем функцию
+  String? _generateIdFromFragment(Fragment? fragment) {
+    if (fragment == null) {
+      logger.w('Cannot generate ID: Fragment is null.');
       return null;
     }
-    // location.encoding уникально идентифицирует элемент в проекте
-    return element.location!.encoding;
+    // Получаем Element из Fragment
+    final element = fragment.element;
+    // Используем element.library2
+    if (element.library2 == null) {
+      logger.w(
+          'Cannot generate ID: Element or Library2 is null for fragment ${fragment.name2} at offset ${fragment.nameOffset2}.');
+      return null;
+    }
+    // Используем URI библиотеки + имя элемента + смещение имени фрагмента для уникальности
+    final libraryUri = element.library2!.uri.toString();
+    final elementName =
+        element.name3 ?? 'unnamed'; // Используем name3 для Element2
+    final nameOffset =
+        fragment.nameOffset2; // Используем nameOffset2 для Fragment
+    return '$libraryUri#$elementName@$nameOffset';
   }
 
   /// Добавляет ребро, если sourceId и targetId не null.
   void _addEdge(String? sourceId, String? targetId, EdgeType type) {
     if (sourceId != null && targetId != null) {
-      edges.add(GraphEdge(sourceId: sourceId, targetId: targetId, type: type));
+      // Избегаем добавления дубликатов ребер
+      if (!edges.any((e) =>
+          e.sourceId == sourceId && e.targetId == targetId && e.type == type)) {
+        edges
+            .add(GraphEdge(sourceId: sourceId, targetId: targetId, type: type));
+      }
     } else {
-      logger.w('Не удалось добавить ребро типа $type: один из ID равен null.');
+      logger.w('Cannot add edge type $type: one of the IDs is null.');
     }
   }
 
   @override
   void visitClassDeclaration(ClassDeclaration node) {
-    final element = node.declaredElement; // Получаем Element для класса
-    if (element == null) {
+    // Получаем фрагмент и элемент
+    final fragment = node.declaredFragment; // ClassFragment?
+    if (fragment == null) {
       logger.e(
-          'Не удалось получить Element для класса ${node.name.lexeme} в файле $filePath');
+          'Cannot get Fragment for class ${node.name.lexeme} in file $filePath');
       super.visitClassDeclaration(node);
       return;
     }
+    final element = fragment.element; // ClassElement2?
 
-    final classId = _generateIdFromElement(element);
-    final className = element.name; // Берем имя из Element
+    // Генерируем ID из фрагмента текущего узла
+    final classId = _generateIdFromFragment(fragment);
+    final className = element.name3; // Используем name3
 
     if (classId == null) {
-      logger.e(
-          'Не удалось сгенерировать ID для класса $className в файле $filePath');
+      logger.e('Cannot generate ID for class $className in file $filePath');
       super.visitClassDeclaration(node);
       return;
     }
 
     // Создаем или обновляем узел класса
-    // Проверяем, существует ли узел с таким ID
     var existingNodeIndex = nodes.indexWhere((n) => n.id == classId);
     if (existingNodeIndex == -1) {
       final classNode = ClassNode(
         id: classId,
-        name: className,
+        name: className ??
+            node.name.lexeme, // Fallback to AST name if element name is null
         filePath: filePath, // Путь к файлу, где он объявлен
         isAbstract: node.abstractKeyword != null,
       );
       nodes.add(classNode);
-      logger.t('Добавлен узел класса: $classId ($className)');
+      logger.t('Added class node: $classId ($className)');
     } else {
-      // Узел уже мог быть создан при разрешении ссылки из другого файла
-      logger.t('Узел класса $classId ($className) уже существует.');
+      // Можно добавить логику обновления существующего узла, если нужно
+      logger.t('Class node $classId ($className) already exists.');
     }
 
-    // Добавляем ребра DECLARES и DEFINED_IN
+    // Добавляем ребра DECLARES (файл -> класс) и DEFINED_IN (класс -> файл)
     _addEdge(filePath, classId, EdgeType.declaresType);
     _addEdge(classId, filePath, EdgeType.definedInType);
 
     // Обрабатываем наследование (extends)
     final extendsClause = node.extendsClause;
     if (extendsClause != null) {
-      final superclassElement =
-          extendsClause.superclass.element; // Получаем Element суперкласса
-      final superclassId = _generateIdFromElement(superclassElement);
+      final superclassElement = extendsClause.superclass.element2; // Element2?
+      // Генерируем ID из первого фрагмента связанного элемента
+      final superclassId =
+          _generateIdFromFragment(superclassElement?.firstFragment);
       if (superclassId != null) {
         _addEdge(classId, superclassId, EdgeType.inheritsFromType);
-        logger.t('Добавлено ребро $classId --INHERITS_FROM--> $superclassId');
+        logger.t('Added edge $classId --INHERITS_FROM--> $superclassId');
       } else {
         logger.w(
-            'Не удалось разрешить суперкласс ${extendsClause.superclass.name2.toString()} для класса $className');
+            'Cannot resolve superclass ${extendsClause.superclass.name2.lexeme} for class $className');
       }
     }
 
@@ -163,15 +192,16 @@ class _AstVisitor extends RecursiveAstVisitor<void> {
     final implementsClause = node.implementsClause;
     if (implementsClause != null) {
       for (final interfaceType in implementsClause.interfaces) {
-        final interfaceElement =
-            interfaceType.element; // Получаем Element интерфейса
-        final interfaceId = _generateIdFromElement(interfaceElement);
+        final interfaceElement = interfaceType.element2; // Element2?
+        // Генерируем ID из первого фрагмента связанного элемента
+        final interfaceId =
+            _generateIdFromFragment(interfaceElement?.firstFragment);
         if (interfaceId != null) {
           _addEdge(classId, interfaceId, EdgeType.implementsType);
-          logger.t('Добавлено ребро $classId --IMPLEMENTS--> $interfaceId');
+          logger.t('Added edge $classId --IMPLEMENTS--> $interfaceId');
         } else {
           logger.w(
-              'Не удалось разрешить интерфейс ${interfaceType.name2.toString()} для класса $className');
+              'Cannot resolve interface ${interfaceType.name2.lexeme} for class $className');
         }
       }
     }
@@ -180,37 +210,39 @@ class _AstVisitor extends RecursiveAstVisitor<void> {
     final withClause = node.withClause;
     if (withClause != null) {
       for (final mixinType in withClause.mixinTypes) {
-        final mixinElement = mixinType.element; // Получаем Element миксина
-        final mixinId = _generateIdFromElement(mixinElement);
+        final mixinElement = mixinType.element2; // Element2?
+        // Генерируем ID из первого фрагмента связанного элемента
+        final mixinId = _generateIdFromFragment(mixinElement?.firstFragment);
         if (mixinId != null) {
           _addEdge(classId, mixinId, EdgeType.mixesInType);
-          logger.t('Добавлено ребро $classId --MIXES_IN--> $mixinId');
+          logger.t('Added edge $classId --MIXES_IN--> $mixinId');
         } else {
           logger.w(
-              'Не удалось разрешить миксин ${mixinType.name2.toString()} для класса $className');
+              'Cannot resolve mixin ${mixinType.name2.lexeme} for class $className');
         }
       }
     }
 
-    super.visitClassDeclaration(node);
+    super.visitClassDeclaration(node); // Продолжаем обход дочерних узлов
   }
 
   @override
   void visitMixinDeclaration(MixinDeclaration node) {
-    final element = node.declaredElement; // Получаем Element для миксина
-    if (element == null) {
+    final fragment = node.declaredFragment; // MixinFragment?
+    if (fragment == null) {
       logger.e(
-          'Не удалось получить Element для миксина ${node.name.lexeme} в файле $filePath');
+          'Cannot get Fragment for mixin ${node.name.lexeme} in file $filePath');
       super.visitMixinDeclaration(node);
       return;
     }
+    final element = fragment.element; // MixinElement2?
 
-    final mixinId = _generateIdFromElement(element);
-    final mixinName = element.name; // Берем имя из Element
+    // Генерируем ID из фрагмента текущего узла
+    final mixinId = _generateIdFromFragment(fragment);
+    final mixinName = element.name3; // Используем name3
 
     if (mixinId == null) {
-      logger.e(
-          'Не удалось сгенерировать ID для миксина $mixinName в файле $filePath');
+      logger.e('Cannot generate ID for mixin $mixinName in file $filePath');
       super.visitMixinDeclaration(node);
       return;
     }
@@ -220,34 +252,34 @@ class _AstVisitor extends RecursiveAstVisitor<void> {
     if (existingNodeIndex == -1) {
       final mixinNode = MixinNode(
         id: mixinId,
-        name: mixinName,
-        filePath: filePath, // Путь к файлу, где он объявлен
+        name: mixinName ?? node.name.lexeme, // Fallback
+        filePath: filePath,
       );
       nodes.add(mixinNode);
-      logger.t('Добавлен узел миксина: $mixinId ($mixinName)');
+      logger.t('Added mixin node: $mixinId ($mixinName)');
     } else {
-      logger.t('Узел миксина $mixinId ($mixinName) уже существует.');
+      logger.t('Mixin node $mixinId ($mixinName) already exists.');
     }
 
     // Добавляем ребра DECLARES и DEFINED_IN
     _addEdge(filePath, mixinId, EdgeType.declaresType);
     _addEdge(mixinId, filePath, EdgeType.definedInType);
 
-    // Обрабатываем ограничения 'on' (аналог implements для миксинов)
+    // Обрабатываем ограничения 'on' (рассматриваем как реализацию интерфейса)
     final onClause = node.onClause;
     if (onClause != null) {
       for (final constraintType in onClause.superclassConstraints) {
-        final constraintElement =
-            constraintType.element; // Получаем Element ограничения
-        final constraintId = _generateIdFromElement(constraintElement);
+        final constraintElement = constraintType.element2; // Element2?
+        // Генерируем ID из первого фрагмента связанного элемента
+        final constraintId =
+            _generateIdFromFragment(constraintElement?.firstFragment);
         if (constraintId != null) {
-          // Используем IMPLEMENTS, как и обсуждали
-          _addEdge(mixinId, constraintId, EdgeType.implementsType);
-          logger
-              .t('Добавлено ребро $mixinId --IMPLEMENTS (ON)--> $constraintId');
+          _addEdge(mixinId, constraintId,
+              EdgeType.implementsType); // Используем IMPLEMENTS
+          logger.t('Added edge $mixinId --IMPLEMENTS (ON)--> $constraintId');
         } else {
           logger.w(
-              'Не удалось разрешить ограничение (on) ${constraintType.name2.toString()} для миксина $mixinName');
+              'Cannot resolve constraint (on) ${constraintType.name2.lexeme} for mixin $mixinName');
         }
       }
     }
@@ -256,15 +288,16 @@ class _AstVisitor extends RecursiveAstVisitor<void> {
     final implementsClause = node.implementsClause;
     if (implementsClause != null) {
       for (final interfaceType in implementsClause.interfaces) {
-        final interfaceElement =
-            interfaceType.element; // Получаем Element интерфейса
-        final interfaceId = _generateIdFromElement(interfaceElement);
+        final interfaceElement = interfaceType.element2; // Element2?
+        // Генерируем ID из первого фрагмента связанного элемента
+        final interfaceId =
+            _generateIdFromFragment(interfaceElement?.firstFragment);
         if (interfaceId != null) {
           _addEdge(mixinId, interfaceId, EdgeType.implementsType);
-          logger.t('Добавлено ребро $mixinId --IMPLEMENTS--> $interfaceId');
+          logger.t('Added edge $mixinId --IMPLEMENTS--> $interfaceId');
         } else {
           logger.w(
-              'Не удалось разрешить интерфейс ${interfaceType.name2.toString()} для миксина $mixinName');
+              'Cannot resolve interface ${interfaceType.name2.lexeme} for mixin $mixinName');
         }
       }
     }
@@ -272,5 +305,5 @@ class _AstVisitor extends RecursiveAstVisitor<void> {
     super.visitMixinDeclaration(node);
   }
 
-  // TODO: Добавить visitFunctionDeclaration, visitMethodDeclaration и т.д. по мере расширения схемы
+  // TODO: Добавить visitEnumDeclaration, visitExtensionDeclaration, visitFunctionDeclaration, visitMethodDeclaration и т.д. по мере необходимости
 }
